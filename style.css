@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital@1&display=swap');
+
+:root{
+--background: #161616;
+
+
+}
+*{
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+width: 100%;
+height: 10%;
+display: flex;
+background-color:#161616;
+font-family: "Poppins", "sens-serif";
+} 
+
+
+ header{
+ display: flex;
+    align-items: center;
+    
+   
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 70%;
+    z-index: 1;
+}
+.contenedor-logo img{
+   max-width: 130px;
+    max-height: 80px;
+}
+.navbar{
+    color:#ffffff;
+    display: flex;
+}
+.navbar i{
+    display:none;
+   font-size: 60px;
+}
+#toggle-menu{
+    display: none;
+    
+}
+.navbar-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: ;
+    font-size: 25px;
+ font-weight: 300px;
+}
+.navbar-list a{ 
+    color:rgb(255, 255, 255);
+    }
+    .carrito{
+        display: flex;
+        padding:20px 100px 50px ;
+        max-width: 1500px;
+       
+        justify-content:flex-start;
+    }
+    .carrito img{
+        width: 40px;
+        height: 40px;
+        font-weight: 3000px;
+    }
+.hero-img{
+    max-width: 100%;
+    }
+
+
+
+ .hero-texto{
+    max-width: 100%;
+    padding: 30px;
+ display: flex;
+ }
+h1{
+    font-size: 70px;
+    color: rgb(250, 250, 250);
+    font-weight: 600px;
+    display: flex;
+    justify-items:flex-start;
+
+}
+.contenedor-produc {
+    background-color: #000000;
+    height: 800px;
+    display: flex;
+padding: 300px;
+flex-direction:column;
+gap: 10px;
+max-width: 100%;
+padding-left: 7px;
+}
+.contenedor-produc h3{
+    color: #56fa0a;
+font-size: 50px;
+font-weight: 500px;
+align-items: center;
+padding-left: 500px;
+padding-bottom: 150px;
+justify-content: end;
+}
+.contenedor-card-produc{
+    width: 100%;
+
+    display: flex;
+    flex-direction;
+    gap: 20px;
+    justify-content: space-ar;
+}
+
+.card-produc{
+    width: 347px;
+    height: 130px;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+
+    background-color:#2bbc41;
+}
+
+.card-pruduc-img{
+    width: 20%;
+    height: 100%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-produc-img img{
+    width: 75px;
+    height: 90px;
+    border-radius: 10px;
+}
+.card-produc-txt{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-produc-txt-title{
+    margin-left: 10px;
+    color:#000000;
+ font-weight: 500px;
+    font-size: 20px;
+    line-height: 131.02%;
+}
+.card-produc-txt-desc{
+    margin-left: 5px;
+    color:;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+ font-weight: 400px;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.9px;
+}
+.card-produc-txt-precio{
+   
+    font-weight: 700px;
+    font-size: 23px;
+    line-height: 111.02%;
+    border-radius: 30px;
+    background:linear-gradient(98.81deg, #fca206 -0.82%, #111111 101.53%);
+
+   
+    
+}
+.card-produc-action{
+    width: 30%;
+    height: 100%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-produc-action a{
+    padding: 7px 15px 7px 15px;
+    background: linear-gradient(98.81deg, #f3a216 -0.82%, #000000 101.53%);
+    border-radius: 15px;
+   color: #000000;
+}
+
+
+
+
+
+
+
+.cards{
+    background-color: aqua;
+}
+.hero img{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.hero-texto{
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    align-items: center;
+    
+}
+.cards-title{
+  
+    padding: 30px;
+    background-color:black;
+    padding-right: 500px;
+}
+.cards-title h2{display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: chartreuse;
+    font-weight: 20px;
+    font-size: 50px;
+ 
+
+}
+.benefits {
+    display: flex;
+    background-color:black;
+    padding-left: 150px;
+    max-width: 150%;
+}
+
+.benefit-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+
+background-color: rgb(17, 202, 0);
+    margin: 12px;
+    padding: 10px;
+    border-radius: 1rem;
+    width: 20%;
+    margin-top: 5px;
+}
+.benefit-title h3{
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 50px;
+}
+
+.contact{
+    display: flex;
+    color: aliceblue;
+    background-color:rgb(0, 0, 0);
+    justify-content: center;
+    padding-bottom: 300px;
+    padding-right: 500px;
+    max-width: 150%;
+
+}
+.contact-info{
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.contact-text h2{
+   padding-bottom: 200px;
+   font-size: 60px;
+   font-weight: 200px;
+   text-align: center;
+
+}
+.card-container{
+    
+    width:200px ;
+   height: 200px;
+}
+.card-line img{padding-bottom: 30px;
+    
+  }
+  footer{display: flex;
+  width:100%;
+  height: 100px;
+  align-items: center;
+  padding-left: 50px;
+
+  background:linear-gradient(to bottom, #000000, #33e80f);
+padding-top: 0px;
+  
+}
+footer img{display: flex;
+  justify-items: flex-end;
+    width: 80px;
+    height: 80px;
+    
+}
+footer h3{
+    font-size: 25px;
+    color: gold;
+    padding-left: 40px;
+    text-align: end;
+    padding-top: 50px;
+
+}
+@media (max-width:950px){
+h1{display: flex;
+    text-align: center;
+    font-size: 55px;
+
+}
+.contenedor-card-produc{
+    max-width: 500%;
+justify-content: left;
+gap: 10px;
+}
+
+
+}
+   
+
+
+@media (max-width:576px){
+    .navbar ul{
+        color: #ffffff;
+       
+        width: 40%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 90px;
+        left:0%;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center;
+       transform:translateX(300%) ;
+       transition: all 0.5s ease-out;
+    }
+
+.navbar i{
+    display: block;
+}
+#toggle-menu:checked + .navbar-list{
+transform: translateX(0%);
+transition: all 0.5s ease-in;
+}
+.hero-texto{
+ width: 8000%;
+ font-size: 80px;
+
+}
+h1{
+    
+}
+}
+@media (max-width:370px){
+h1{
+    display: none;
+}
+.contenedor-produc{
+    
+   flex-direction: column;
+   
+   
+  
+}
+    .benefits{
+    padding-left: 20px;
+}
+
+
+}

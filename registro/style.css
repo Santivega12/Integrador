@@ -1,0 +1,41 @@
+body{
+    background-image:url(../asset/fondo-patron-textura-fibra-carbono-negro_1017-33436.webp);
+
+}
+.Registro{
+    
+    display: flex;
+
+ width: 100%;
+
+}
+h1{
+    color: aliceblue;
+    font-size: 70px;
+padding-left: 600px;
+text-decoration:underline;
+
+}
+.Registro-usuario{
+    display: flex;
+    flex-direction: column;
+    
+width: 300px;
+padding-left: 600px;
+}
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3000px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.post input{
+    font-size: 20px;
+ text-align: center;
+}
